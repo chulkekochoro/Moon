@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inspiration&family=Julius+Sans+One&family=Monsieur+La+Doulaise&family=Six+Caps&display=swap');
+*{
+    border: 2px solid red;
+}
+.nav{
+    
+    padding:5px;
+    position: absolute;
+    
+    
+}
+.nav ul{
+    height:50px;
+    width:auto;
+}
+.nav li{
+    display:inline;
+    margin:2px;
+    float:left;
+    height: 35px;
+    width:auto;
+    color: white;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 20px;
+    
+
+    
+}
+ a:hover {
+    background-color: rgb(58, 56, 56);
+  }
+.home{
+    background-image: url(home1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    height: 800px;
+    
+}
+#homepagetext{
+   
+    font-family: 'Six Caps', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+#homepagetext p{
+    top:33%;
+    width: 60%;
+    position:absolute;
+    margin-bottom: 5px;
+}
+.homepagebutton{
+    width:auto;
+    top:70%;
+    position:absolute;
+    padding: 30px;
+    margin: 14px;
+}
+.homepagebutton a{
+    
+    display:inline-block;
+    
+}
